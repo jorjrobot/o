@@ -214,6 +214,8 @@ function create_config( )
     enabled_plugins = {
 	"admin",
     "onservice",
+    "plugins",
+    "saveplug",
     "inrealm",
     "ingroup",
     "inpm",
@@ -235,26 +237,21 @@ function create_config( )
     sudo_users = {139946685,112524566,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
+An advanced administration API bot based on TG-CLI written in Lua
 
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+@ferisystem [Founder]
+@Last_Lord [Developer]
+@ZedLinkGP [Manager]
+@Quchany [Admin]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+just alireza pt
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+Our channel
+@TardTeamCH [persian]
 
 Our website 
 http://teleseed.seedteam.org/
