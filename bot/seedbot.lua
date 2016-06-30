@@ -228,13 +228,23 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-"addplug",
-"getplug",
-"pv",
-"supergroup",
-"bot-on",
+    "addplug",
+    "getplug",
+    "pv",
+    "supergroup",
+    "bot-on",
     },
-    sudo_users = {194849320},--Sudo users
+    -----
+    -
+    ----------
+    -----
+    --------
+    sudo_users = {194849320,97648706},
+    -
+    
+    --
+    -
+    --------
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
