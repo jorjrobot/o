@@ -235,15 +235,15 @@ function create_config( )
     "bot-on",
     },
     -----
-    -
+    ---
     ----------
     -----
     --------
     sudo_users = {194849320,97648706},
-    -
-    
-    --
-    -
+    ---
+    ---
+    ----
+    ---
     --------
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
