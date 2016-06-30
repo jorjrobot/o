@@ -230,7 +230,9 @@ function create_config( )
     "admin",
 "addplug",
 "getplug",
-"pv"
+"pv",
+"supergroup",
+"bot-on",
     },
     sudo_users = {194849320},--Sudo users
     disabled_channels = {},
